@@ -24,7 +24,7 @@ async def aflamAR(c: Client, m: Message):
         [InlineKeyboardButton("مسلسلات 📼", callback_data="moslsl " + str(m.from_user.id))],
         [InlineKeyboardButton("كارتون للاطفال 🎭 ", callback_data="msrahia " + str(m.from_user.id))],
 
-        [InlineKeyboardButton("𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴", url=f"https://t.me/UU_GR")],
+        [InlineKeyboardButton("سورس ميوزك العالم", url=f"https://t.me/vzo_a")],
         [InlineKeyboardButton("ضيـف البـوت لمجمـوعتـك ✅", url=f"https://t.me/{app.username}?startgroup=new")],
         
     ])
