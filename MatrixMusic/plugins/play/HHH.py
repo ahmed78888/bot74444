@@ -156,7 +156,7 @@ async def italy(_, query: CallbackQuery):
 #كول باك اوامر مميزات السورس
 @app.on_callback_query(filters.regex("italysou"))
 async def italy(_, query: CallbackQuery):
-   await query.edit_message_caption(caption =f"""✅ **اليك قائمة اوامر سورس حـسـام ♬**
+   await query.edit_message_caption(caption =f"""✅ **اليك قائمة اوامر سورس نور الحاكم ♬**
    المس الامر لنسخ والاستخدام
 ❅─────✧❅✦❅✧─────❅
 ▰▰▰▰▰▰▰▰▰▰▰▰
