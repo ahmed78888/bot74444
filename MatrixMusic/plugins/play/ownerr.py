@@ -53,7 +53,7 @@ async def khfzss(client: Client, message: Message):
     id = usrr.id
     username = usrr.username
     async for photo in client.get_chat_photos(OWNER_ID, limit=1):
-                    await message.reply_photo(photo.file_id,       caption=f"""- 𓏺 َِ𝑺𝑶𝑼𝑹𝑪𝑬 𝑯𝑶𝑺𝑺𝑨𝑴: \n\n⌔︙𝒏𝒂𝒎𝒆: {name} \n\n⌔︙𝒖𝒔𝒆𝒓: @{username} \n\n⌔︙𝒊𝒅: {id} \n\n⌔︙𝒃𝒊𝒐: {bio} \n\n⌔︙𝒋𝒐𝒃:  مطور البوت """, 
+                    await message.reply_photo(photo.file_id,       caption=f"""-❅───✧❅سورس ميوزك العالم❅✧───❅: \n\n⌔︙𝐍𝐚𝐦𝐞: {name} \n\n⌔︙𝐔𝐀𝐌𝐄: @{username} \n\n⌔︙𝐈𝐃: {id} \n\n⌔︙𝐃𝐈𝐎: {bio} \n\n⌔︙nour:  مطور البوت """, 
         reply_markup=InlineKeyboardMarkup(
             [
                 [
