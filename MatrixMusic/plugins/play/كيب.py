@@ -91,7 +91,7 @@ REPLY_MESSAGE_BUTTONS = [
     ]
 ]
 
-@app.on_message(filters.regex("^/nour"), group=39)
+@app.on_message(filters.regex("^/fox"), group=39)
 async def cpanel(_, message: Message):             
         text = REPLY_MESSAGE
         reply_markup = ReplyKeyboardMarkup(REPLY_MESSAGE_BUTTONS, resize_keyboard=True, selective=True)
@@ -115,7 +115,7 @@ def reply_to_HEY(Client, message):
         reply_markup=InlineKeyboardMarkup(
             [
             [
-                InlineKeyboardButton("مـطور سـورس الـعالم", url=f"https://t.me/nor_o"),
+                InlineKeyboardButton("مـطور سـورس wolf", url=f"https://t.me/F_o_x_5"),
             ]
          ]
      )
