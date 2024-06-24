@@ -4,7 +4,7 @@ from MatrixMusic import app
 import json 
 from config import BANNED_USERS
 import requests 
-from MatrixMusic.core.call import Dil
+from MatrixMusic.core/call.py import Dil
 
 
 @app.on_message(filters.command(["قران"],""))
