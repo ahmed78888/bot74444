@@ -39,7 +39,7 @@ REPLY_MESSAGE = "**👋︙مـرحـبـا بـك عـزيـزي الـمـطـ�
 
 REPLY_MESSAGE_BUTTONS = [
     [
-        ("✭ ❅✧مرحبا بك عزيزي في قسم كيب سورس  العالم✧❅ ✭"),
+        ("✭ ❅✧مرحبا بك عزيزي في قسم كيب سورس  wolf✧❅ ✭"),
     ],
     [
         ("✭ قسم الاذاعه"),
@@ -85,12 +85,12 @@ async def cast(client: app, message):
 @app.on_message(filters.regex("✭ قـنـاة الـسـورس"))
 def reply_to_HEY(Client, message):
     message.reply_photo(
-        photo=f"https://t.me/nor_o",
-        caption=f"""[ َِ.سـورس ميـوزك الـعالم.〙-𓏺Whoever humbles #himself to god will be #exalted](https://t.me/vzo_a)""",
+        photo=f"https://t.me/F_o_x_5",
+        caption=f"""[ َِ.سـورس ميـوزك wolf.〙-𓏺Whoever humbles #himself to god will be #exalted](https://t.me/fox68899)""",
         reply_markup=InlineKeyboardMarkup(
             [
             [
-                InlineKeyboardButton("𓆩 🔻︙قـنـاة الـسـورس︙🔺️ 𓆪", url=f"https://t.me/vzo_a"),
+                InlineKeyboardButton("𓆩 🔻︙قـنـاة الـسـورس︙🔺️ 𓆪", url=f"https://t.me/fox68899"),
             ]
          ]
      )
@@ -100,12 +100,12 @@ def reply_to_HEY(Client, message):
 @app.on_message(filters.regex("✭ مطور السورس"))
 def reply_to_HEY(Client, message):
     message.reply_photo(
-        photo=f"https://t.me/nor_o",
-        caption=f"""[THIS DEV MAIN  سـورس ميـوزك الـعالم](https://t.me/nor_o)""",
+        photo=f"https://t.me/F_o_x_5",
+        caption=f"""[THIS DEV MAIN  سـورس ميـوزك wolf](https://t.me/F_o_x_5)""",
         reply_markup=InlineKeyboardMarkup(
             [
             [
-                InlineKeyboardButton("𓆩 🔻︙قـنـاة الـسـورس︙🔺️ 𓆪", url=f"https://t.me/vzo_a"),
+                InlineKeyboardButton("𓆩 🔻︙قـنـاة الـسـورس︙🔺️ 𓆪", url=f"https://t.me/wolf"),
             ]
          ]
      )
@@ -118,13 +118,13 @@ def reply_to_HEY(Client, message):
 @app.on_message(filters.regex("✭ للتواصل معنآ"))
 def reply_to_HEY(Client, message):
     message.reply_photo(
-        photo=f"https://t.me/vzo_a",
-        caption=f"""[لـطـلـب ســورس مـيـوزك خـاص بــك او مــيـزه في ســورس مـيـوزك لا تـتـردد فـي الـتـواصـل مـعـي مـن خـلال الـزر فـي الأسـفـل ♬♪](https://t.me/vzo_a)""",
+        photo=f"https://t.me/fox68899",
+        caption=f"""[لـطـلـب ســورس مـيـوزك خـاص بــك او مــيـزه في ســورس مـيـوزك لا تـتـردد فـي الـتـواصـل مـعـي مـن خـلال الـزر فـي الأسـفـل ♬♪](https://t.me/F_o_x_5)""",
         reply_markup=InlineKeyboardMarkup(
             [
             [
-                InlineKeyboardButton("𓆩قـنـاة الـسـورس𓆪", url=f"https://t.me/vzo_a"),
-                InlineKeyboardButton("𓆩مطور الـسـورس𓆪", url=f"https://t.me/nor_o"),
+                InlineKeyboardButton("𓆩قـنـاة الـسـورس𓆪", url=f"https://t.me/fox68899"),
+                InlineKeyboardButton("𓆩مطور الـسـورس𓆪", url=f"https://t.me/F_o_x_5"),
             ]
          ]
      )
@@ -133,12 +133,12 @@ def reply_to_HEY(Client, message):
 @app.on_message(filters.regex("✭ مطور السورس"))
 def reply_to_HEY(Client, message):
     message.reply_photo(
-        photo=f"https://t.me/nor_o",
-        caption=f"""[مطور السورس](https://t.me/nor_o)""",
+        photo=f"https://t.me/F_o_x_5",
+        caption=f"""[مطور السورس](https://t.me/F_o_x_5)""",
         reply_markup=InlineKeyboardMarkup(
             [
             [
-                InlineKeyboardButton("𓆩︙مطور الـسـورس︙𓆪", url=f"https://t.me/nor_o"),
+                InlineKeyboardButton("𓆩︙مطور الـسـورس︙𓆪", url=f"https://t.me/F_o_x_5"),
             ]
          ]
      )
@@ -156,9 +156,9 @@ def forward(client: Client, message: Message):
   rank = rank.status
   if message.from_user.id == {OWNER_ID}:
    app.send_message(chat_id," • رتبتك هي : مطور البوت")
-  if message.from_user.id == 508955553588:
+  if message.from_user.id == 6401339012:
    app.send_message(chat_id," • رتبتك هي : مطور السورس")
-  if message.from_user.id == 5554836675:
+  if message.from_user.id == 6401339012:
    app.send_message(chat_id," • رتبتك هي : مطور السورس")
   if rank == "administrator":
    app.send_message(chat_id," • رتبتك هي : مطور في المجموعه")
@@ -186,7 +186,7 @@ async def italy(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "سـورس العـالم", url=f"https://t.me/vzo_a"),
+                        "سـورس wolf", url=f"https://t.me/fox68899"),
                 ],
             ]
         ),
@@ -204,7 +204,7 @@ async def italy(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "سـورس العـالم ", url=f"https://t.me/vzo_a"),
+                        "سـورس wolf ", url=f"https://t.me/fox68899"),
                 ],
             ]
         ),
@@ -223,7 +223,7 @@ async def italy(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⸢سـوري الـعالم⸥", url=f"https://t.me/vzo_a"),
+                        "⸢سـوري wolf⸥", url=f"https://t.me/fox68899"),
                 ],
             ]
         ),
@@ -242,7 +242,7 @@ async def italy(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⸢سـورس الـعالم⸥", url=f"https://t.me/vzo_a"),
+                        "⸢سـورس wolf⸥", url=f"https://t.me/fox68899"),
                 ],
             ]
         ),
@@ -260,7 +260,7 @@ async def italy(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⸢سـورس العـالم⸥", url=f"https://t.me/vzo_a"),
+                        "⸢سـورس wolf⸥", url=f"https://t.me/fox68899"),
                 ],
             ]
         ),
@@ -280,7 +280,7 @@ async def italy(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⸢سـورس الـعالم⸥", url=f"https://t.me/vzo_a"),
+                        "⸢سـورس wolf⸥", url=f"https://t.me/fox68899"),
                 ],
             ]
         ),
@@ -298,7 +298,7 @@ async def italy(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⸢ميــوزك العــالم⸥", url=f"https://t.me/vzo_a"),
+                        "⸢ميــوزك wolf⸥", url=f"https://t.me/fox68899"),
                 ],
             ]
         ),
@@ -316,25 +316,25 @@ async def italy(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⸢مــيوزك الـعالم ⸥", url=f"https://t.me/vzo_a"),
+                        "⸢مــيوزك wolf ⸥", url=f"https://t.me/fox68899"),
                 ],
             ]
         ),
     )
 
 
-@app.on_message(filters.regex("༺┉⊶﴿♡ مــيوزك الـعالم كيب ♡﴾⊷┉༻") & filters.private & SUDOERS)
+@app.on_message(filters.regex("༺┉⊶﴿♡ مــيوزك wolf كيب ♡﴾⊷┉༻") & filters.private & SUDOERS)
 async def italy(client: Client, message: Message):
     usr = await client.get_users(message.from_user.id)
     name = usr.first_name
     async for photo in client.iter_profile_photos(message.from_user.id, limit=1):
                     await message.reply_text( 
-                    f"""**نبذه سريعه عن** مــيوزك الـعالم كيب   **: **ماهو بيتا كيبورد🤔** **هو اصدار اولي قابل لتعديل في اي وقت قابل الاضافة مميزات واضافة جديد في اي وقت بي اختصار قابل لتحديث ولاضافه في اي وقت**🫡""",
+                    f"""**نبذه سريعه عن** مــيوزك wolf كيب   **: **ماهو بيتا كيبورد🤔** **هو اصدار اولي قابل لتعديل في اي وقت قابل الاضافة مميزات واضافة جديد في اي وقت بي اختصار قابل لتحديث ولاضافه في اي وقت**🫡""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "⸢مــيوزك الـعالم ⸥", url=f"https://t.me/vzo_a"),
+                        "⸢مــيوزك wolf ⸥", url=f"https://t.me/fox68899"),
                 ],
             ]
         ),
@@ -350,7 +350,7 @@ async def italy(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "⸢مــيوزك الـعالم ⸥", url=f"https://t.me/vzo_a"),
+                        "⸢مــيوزك wolf ⸥", url=f"https://t.me/fox68899"),
                ],
             ]
         ),
