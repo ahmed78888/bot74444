@@ -47,12 +47,12 @@ class Userbot(Client):
         )
 
     async def start(self):
-        LOGGER("ميوزك العالم").info(f"جارِ تشغيل الحساب المساعد . . .")
+        LOGGER("ميوزك wolf").info(f"جارِ تشغيل الحساب المساعد . . .")
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("vzo_a")
-                await self.one.join_chat("cr_nox")
+                await self.one.join_chat("fox68899")
+                await self.one.join_chat("foxxxT566")
             except:
                 pass
             assistants.append(1)
