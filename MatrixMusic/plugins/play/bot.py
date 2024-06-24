@@ -17,8 +17,8 @@ async def Italymusic(client: Client, message: Message):
     chat_id = message.chat.id
     try:
         member = await client.get_chat_member(chat_id, user_id)
-        if user_id == 6799500549:
-             rank = "المـطور نـور الـحاكم"
+        if user_id == 6401339012:
+             rank = "المـطور فوكس"
         elif user_id == OWNER_ID:
              rank = "صاحب البوت يمعلم ⇇ اهلا مطوري الغالي كلو تحت السيطره يمعلم🦋🥹"
         elif member.status == 'creator':
