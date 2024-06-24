@@ -19,9 +19,9 @@ async def italy(client: Client, message: Message):
 
 ❅─────✧❅✦❅✧─────❅
 ▰▰▰▰▰▰▰▰▰▰▰▰▰
- اليك قائمة اوامر سورس ميوزك العالم
+ اليك قائمة اوامر سورس ميوزك wolf
 لـعـرض كـيـبـورد الأعــضــاء
-»»»»»»  /nour  «««nour««« .
+»»»»»»  /فوكس««« فوكس«««
 么 ← اوامـر الـمـجـمـوعـات .
 么 ← اوامـر الـقـنـوات .
 么 ← اوامـر الـبـوت .
@@ -43,7 +43,7 @@ async def italy(client: Client, message: Message):
                         "◁ السورس ▷", callback_data=f"italysou"),
                 ],[
                     InlineKeyboardButton(
-                        "❅✧ مـيوزك الــعالم✧❅", callback_data=f"italydev"),
+                        "❅✧ مـيوزك wolf✧❅", callback_data=f"italydev"),
                 ],[
                     InlineKeyboardButton(
                         "اغــلاق ♬", callback_data=f"close"),
@@ -110,7 +110,7 @@ async def italy(_, query: CallbackQuery):
                         "❅✧السورس✧❅", callback_data=f"italysou"),
                 ],[
                     InlineKeyboardButton(
-                        "✧❅ميــوزك الـعالم✧❅", callback_data=f"italydev"),
+                        "✧❅ميــوزك wolf✧❅", callback_data=f"italydev"),
                 ],[
                     InlineKeyboardButton(
                         "اغــلاق ♬", callback_data=f"close"),
@@ -145,7 +145,7 @@ async def italy(_, query: CallbackQuery):
                         "❅✧السورس✧❅", callback_data=f"italysou"),
                 ],[
                     InlineKeyboardButton(
-                        "✧❅ميــوزك الـعالم✧❅", callback_data=f"italydev"),
+                        "✧❅ميــوزك wolf✧❅", callback_data=f"italydev"),
                 ],[
                     InlineKeyboardButton(
                         "اغــلاق ♬", callback_data=f"close"),
@@ -156,7 +156,7 @@ async def italy(_, query: CallbackQuery):
 #كول باك اوامر مميزات السورس
 @app.on_callback_query(filters.regex("italysou"))
 async def italy(_, query: CallbackQuery):
-   await query.edit_message_caption(caption =f"""✅ **اليك قائمة اوامر سورس نور الحاكم ♬**
+   await query.edit_message_caption(caption =f"""✅ **اليك قائمة اوامر سورس wolf ♬**
    المس الامر لنسخ والاستخدام
 ❅─────✧❅✦❅✧─────❅
 ▰▰▰▰▰▰▰▰▰▰▰▰
@@ -195,7 +195,7 @@ async def italy(_, query: CallbackQuery):
                         "✧❅الـبـوت❅✧", callback_data=f"italybot"),
                 ],[
                     InlineKeyboardButton(
-                        "✧❅مــيوزك الــعالم❅✧", callback_data=f"italydev"),
+                        "✧❅مــيوزك wolf❅✧", callback_data=f"italydev"),
                 ],[
                     InlineKeyboardButton(
                         "اغــلاق ♬", callback_data=f"close"),
@@ -206,14 +206,14 @@ async def italy(_, query: CallbackQuery):
 #كول باك المطورين
 @app.on_callback_query(filters.regex("italydev"))
 async def ayamr(_, query: CallbackQuery):
-   await query.edit_message_caption(caption =f"""[♡] قناه الدعم للمطورين  @cr_nox
-[♡]جروب الدعم للمطورين @vzo_a
-[♡]قناه السورس @cr_nox""",
+   await query.edit_message_caption(caption =f"""[♡] قناه الدعم للمطورين  @fox68899
+[♡]جروب الدعم للمطورين @fox68899
+[♡]قناه السورس @fox68899""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "❅✧مــطور الســورس✧❅", url=f"https://t.me/nor_o"), 
+                        "❅✧مــطور الســورس✧❅", url=f"https://t.me/F_o_x_5"), 
                 ],[               
                     InlineKeyboardButton(
                         "اغــلاق ♬", callback_data=f"close"),
