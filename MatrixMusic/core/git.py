@@ -72,4 +72,4 @@ def git():
         except GitCommandError:
             repo.git.reset("--hard", "FETCH_HEAD")
         install_req("pip3 install --no-cache-dir -r requirements.txt")
-        LOGGER("ميوزك العالم").info(f"جارِ الكشف عن تحديثات جديدة . . .")
+        LOGGER("ميوزك wolf").info(f"جارِ الكشف عن تحديثات جديدة . . .")
