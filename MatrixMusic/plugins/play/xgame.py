@@ -6,13 +6,13 @@ from MatrixMusic import app
 import re
 import sys
 
-GAME_MESSAGE = "✧❅▰▰ميـوزك العــالم▰▰❅✧\n\n★¦ مرحبا بك عزيزي:\n★¦في قسم العاب نــور\n\n✧❅▰▰ميـوزك العــالم▰▰❅✧"
+GAME_MESSAGE = "✧❅▰▰ميـوزك wolf ▰▰❅✧\n\n★¦ مرحبا بك عزيزي:\n★¦في قسم العاب wolf\n\n✧❅▰▰ميـوزك wolf▰▰❅✧"
 GAME_BUTTONS = [
     [ 
         InlineKeyboardButton ('❅✧الــعاب✧❅', callback_data= 'GAME1'),
         InlineKeyboardButton ('❅✧العــاب✧❅', callback_data= 'GAME2'),
         ],[
-        InlineKeyboardButton ('❅✧سـورس مــيوزك الــعالم✧❅', url =f"https://t.me/vzo_a")              
+        InlineKeyboardButton ('❅✧سـورس مــيوزك wolf✧❅', url =f"https://t.me/fox68899")              
                  ],[
                 InlineKeyboardButton(
                         "رجوع", callback_data="close"),
@@ -313,7 +313,7 @@ async def zohary(client: Client, message: Message):
 async def callback_query(client, CallbackQuery):
           if CallbackQuery.data == "GAME1":
             
-             GAME1_MESSAGE = "❅───✧❅ســورس مــيوزك العــالم❅✧───❅\n\nمرحبا بك في قسم العاب نور 3D\n\n❅───✧❅ســورس مــيوزك العــالم❅✧───❅"
+             GAME1_MESSAGE = "❅───✧❅ســورس مــيوزك wolf❅✧───❅\n\nمرحبا بك في قسم العاب wolf 3D\n\n❅───✧❅ســورس مــيوزك wolf❅✧───❅"
 
              GAME1_BUTTONS = [
                  [
@@ -357,7 +357,7 @@ async def callback_query(client, CallbackQuery):
               )
           elif CallbackQuery.data == "GAME":
                
-               RETURN_GAME = "❅───✧❅ســورس مــيوزك العــالم❅✧───❅\n\n★¦مرحبا بك في قسم العاب نور\n★¦اختار ما تشاء من الالعاب مسليه وستمتع بها\n\n❅───✧❅ســورس مــيوزك العــالم❅✧───❅" 
+               RETURN_GAME = "❅───✧❅ســورس مــيوزك wolf❅✧───❅\n\n★¦مرحبا بك في قسم العاب فوكس\n★¦اختار ما تشاء من الالعاب مسليه وستمتع بها\n\n❅───✧❅ســورس مــيوزك wolf❅✧───❅" 
 
                RETURN_BUTTON = [
                     [ 
@@ -377,11 +377,11 @@ async def callback_query(client, CallbackQuery):
                     )
           elif CallbackQuery.data == "GAME2":
                
-               SOURCE_GAME = "❅───✧❅ســورس مــيوزك العــالم❅✧───❅\n\n★¦العاب نور\n★¦كت\n★¦تويت\n★¦اسال\n★¦اصراحه\n\n❅───✧❅ســورس مــيوزك العــالم❅✧───❅" 
+               SOURCE_GAME = "❅───✧❅ســورس مــيوزك wolf❅✧───❅\n\n★¦العاب فوكس\n★¦كت\n★¦تويت\n★¦اسال\n★¦اصراحه\n\n❅───✧❅ســورس مــيوزك wolf❅✧───❅" 
 
                SORGAM_BUTTON = [
                     [ 
-                      InlineKeyboardButton ('❅✧سـورس ميـوزك✧❅', url =f"https://t.me/vzo_a")
+                      InlineKeyboardButton ('❅✧سـورس ميـوزك✧❅', url =f"https://t.me/fox68899")
                       ],[
                          InlineKeyboardButton ('رجوع', callback_data= 'GAME')
                     ]
