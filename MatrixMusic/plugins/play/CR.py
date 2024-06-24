@@ -36,7 +36,7 @@ async def huhh(client: Client, message: Message):
                     InlineKeyboardButton(
                         "✧❅¹مــطور❅✧", url=f"https://t.me/F_o_x_5"), 
                  InlineKeyboardButton(
-                   "✧❅²مــطور❅✧",       url=f"https://t.me/F_o_x_5"), 
+                   "✧❅²مــطور❅✧",       url=f"https://t.me/l_1l_v"), 
                  
              ],[ 
             InlineKeyboardButton(
@@ -83,12 +83,12 @@ async def yas(client, message):
 
 
 @app.on_message(
-    command(["فوكس" , "فوكس","مبرمج السورس"])
+    command(["فرواله" , "فوكس","مبرمج السورس"])
     
     
 )
 async def yas(client, message):
-    usr = await client.get_chat("F_o_x_5")
+    usr = await client.get_chat("l_1l_v")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
     await message.reply_photo(photo,       caption=f"معلومات مطور السورس.\n\n¦➻ 𝐍𝐀𝐌𝐄 :{name}\n\n ¦➻ 𝐔𝐒𝐄𝐑 :@{usr.username}\n\n ¦➻ 𝐈𝐃 :`{usr.id}`\n\n ¦➻ 𝐁𝐎𝐈 :{usr.bio}\n\nسـورس مـيوزك wolf", 
@@ -105,12 +105,12 @@ async def yas(client, message):
 
 
 @app.on_message(
-    command(["مطور السورس" , "فوكي","فوكس"])
+    command(["مطور السورس" , "فرواله","فوكس"])
     
     
 )
 async def yas(client, message):
-    usr = await client.get_chat("F_o_x_5")
+    usr = await client.get_chat("l_1l_v")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
     await message.reply_photo(photo,       caption=f"معلومات مبرمج السورس.\n\n¦➻ 𝐍𝐀𝐌𝐄 :{name}\n\n ¦➻ 𝐔𝐒𝐄𝐑 :@{usr.username}\n\n ¦➻ 𝐈𝐃 :`{usr.id}`\n\n ¦➻ 𝐁𝐎𝐈 :{usr.bio}\n\nسـورس مـيوزك wolf", 
